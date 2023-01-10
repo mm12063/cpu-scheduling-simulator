@@ -1,6 +1,6 @@
 Please compile with C++11 on CIMS
 
-Use the makefile:
+Use the makefile commands:
 
 make
 
@@ -9,4 +9,4 @@ or
 make clean
 
 
-Executable ./sched will be created
+The executable ./sched will be created
