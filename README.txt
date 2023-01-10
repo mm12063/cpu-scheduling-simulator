@@ -1,0 +1,12 @@
+Please compile with C++11 on CIMS
+
+Use the makefile:
+
+make
+
+or 
+
+make clean
+
+
+Executable ./sched will be created
