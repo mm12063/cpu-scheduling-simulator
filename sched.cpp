@@ -225,6 +225,7 @@ void simulation(Scheduler *scheduler) {
                 call_scheduler = true;
                 break;
             }
+            
             case TRANS_TO_RUN: {
 
                 if (process->c_burst <= 0)
@@ -486,9 +487,8 @@ int main (int argc, char **argv)
 
         if (is_valid_sched_code(s_data.at(0))){
             scheduler = get_scheduler(s_data.at(0));
-            if (scheduler != nullptr) {
+            if (scheduler != nullptr)
                 simulation(scheduler);
-            }
             else
                 cout << "Unable to locate scheduler for given code." << endl;
         } else {
